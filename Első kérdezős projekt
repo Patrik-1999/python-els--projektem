@@ -1,0 +1,13 @@
+
+print ("Szia!")
+
+nev = input ("Hogy hivnak?")
+print ("Szia " + nev + "!")
+
+kor = input (" Hány éves vagy? ")
+kerdes = input ("És " + kor + " évesen szeretnéd elkezdeni a programozást? (Igen/Nem) ").lower()
+if kerdes == "Igen":
+    print ("Nagyon Szuper! Sok sikert!")
+else:
+    kerdes = input ("Miért nem szeretnéd?")
+    print ("Sajnálattal hallom, pedig nagyon izgalmas szakma!")
